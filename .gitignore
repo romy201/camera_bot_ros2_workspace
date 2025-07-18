@@ -1,0 +1,40 @@
+# ROS 2 Colcon build artifacts
+build/
+install/
+log/
+.colcon_*/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# C++ build artifacts
+*.o
+*.d
+*.so
+*.a
+*.lo
+*.la
+*.gcno
+*.gcda
+*.gcov
+*.lto
+
+# CMake cache and build files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
